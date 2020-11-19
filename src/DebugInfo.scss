@@ -1,0 +1,20 @@
+@import "./constants.scss";
+
+.debug-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 5px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: $color-white;
+	border-color: $color-gray;
+	border-style: double;
+	z-index: 1000;
+
+	@media print {
+		height: 0;
+		opacity: 0;
+	}
+}

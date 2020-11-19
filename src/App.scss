@@ -1,0 +1,7 @@
+.react-body {
+  text-align: center;
+
+  &.waiting {
+	  pointer-events: none;
+  }
+}
