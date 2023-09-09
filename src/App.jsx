@@ -55,7 +55,7 @@ class App extends Component {
 	}
 
 	/**
-	 * static function to log out user and go to login screen
+	 * static function to log out user and go to login screen fucking kill me
 	 * @oublic
 	 */
 	static logout() {
